@@ -1,0 +1,92 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  color: #212429;
+}
+nav {
+  background-color: #fff;
+  font-size: 16px;
+  position: fixed;
+  top: 0%;
+  width: 100%;
+  padding-bottom: 16 px;
+  border-bottom: #212429 solid 1px;
+}
+main {
+  background-color: #fff;
+  font-size: 14px;
+  margin-top: 75px;
+  padding-top: 32px;
+}
+
+footer {
+  background-color: #212429;
+  color: #fff;
+  font-size: 16px;
+  padding: 16px;
+  justify-content: center;
+}
+h1 {
+  font-size: 32px;
+}
+
+.imagen {
+  border-radius: 20px;
+}
+
+.precio {
+  font-weight: 700;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 8px;
+}
+.flex-containerBetween {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 16px;
+}
+.item {
+  padding: 16px;
+  margin: 16px;
+}
+
+.iconFooter {
+  background-color: #fff;
+  padding: 8px;
+  margin: 16px;
+  border-radius: 200%;
+  justify-content: center;
+}
+.tarjeta:hover {
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+}
+@media screen and (max-width: 920px) {
+  nav {
+    height: 100px;
+    overflow: hidden;
+  }
+  main {
+    margin-top: 20px;
+    padding-top: 8px;
+  }
+  div {
+    flex-direction: column;
+  }
+  footer {
+    flex-direction: column;
+  }
+  .flex-container div {
+    flex-direction: column;
+    margin-bottom: #fff solid 1px;
+  }
+  .iconFooter {
+    scale: 20%;
+    padding: 0px;
+  }
+  footer .item {
+    padding: 0px;
+  }
+}
